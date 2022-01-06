@@ -46,7 +46,7 @@ body{
 .nav{
     &__list{
         display: flex;
-        margin: 0;
+        margin: 0 !important;
         padding: 0;
         list-style: none;
 
@@ -284,11 +284,12 @@ footer{
         height: 24px;
         display: flex;
         justify-content: space-between;
+        margin-left: 368px;
     }
 }
 
 .nav{
-    margin-right: 368px;
+    //margin-right: 368px;
     &__list{
         display: flex;
         margin: 0;
